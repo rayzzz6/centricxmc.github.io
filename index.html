@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CentricxMC | Premium Minecraft Server</title>
+
+<meta name="description" content="Join CentricxMC - A Premium Minecraft Survival Experience">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="icon" type="image/png" href="logo.png">
+
+</head>
+
+<body>
+
+<!-- LOADER -->
+
+<div id="loader">
+
+<div class="loader-logo">
+
+CENTRICXMC
+
+</div>
+
+<div class="loader-bar">
+
+<div class="loader-progress"></div>
+
+</div>
+
+</div>
+
+<!-- PARTICLES -->
+
+<div id="particles"></div>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+
+<img src="logo.png" alt="CentricxMC">
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#status">Status</a></li>
+
+<li><a href="#features">Features</a></li>
+
+<li><a href="#discord">Discord</a></li>
+
+<li><a href="#faq">FAQ</a></li>
+
+</ul>
+
+<div class="nav-buttons">
+
+<button
+class="copy-nav"
+id="copyNav">
+
+Copy IP
+
+</button>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-left">
+
+<div class="badge">
+
+🔥 Season One Live
+
+</div>
+
+<h1>
+
+A Premium
+
+<span>
+
+Minecraft
+
+</span>
+
+Experience
+
+</h1>
+
+<p>
+
+Join thousands of players on the most beautiful Survival & Lifesteal experience.
+
+Play with friends, create teams, build bases, fight wars and become the strongest.
+
+</p>
+
+<div class="hero-buttons">
+
+<button class="join-btn" id="playNow">
+Play Now
+</button>
+
+<a
+href="https://discord.gg/xpw3bBk6W"
+target="_blank"
+class="discord-btn">
+
+Join Discord
+
+</a>
+
+</div>
+
+<div class="hero-ip">
+
+<div>
+
+Java IP
+
+<strong>
+
+void.centricxmc.in
+
+</strong>
+
+</div>
+
+<div>
+
+Port
+
+<strong>
+
+25591
+
+</strong>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="floating-card">
+
+<div class="status-dot"></div>
+
+<h3>
+
+Server Status
+
+</h3>
+
+<h2 id="status-text">
+
+Checking...
+
+</h2>
+
+<p>
+
+Players Online
+
+</p>
+
+<h1 id="player-count">
+
+0 / 0
+
+</h1>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+<div class="stat-card">
+
+<h2 id="onlinePlayers">
+
+0
+
+</h2>
+
+<p>
+
+Players
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+
+24/7
+
+</h2>
+
+<p>
+
+Online
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+
+99%
+
+</h2>
+
+<p>
+
+Uptime
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<h2>
+
+1.21+
+
+</h2>
+
+<p>
+
+Version
+
+</p>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section id="features">
+
+<h1 class="section-title">
+
+Why CentricxMC?
+
+</h1>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+
+<div class="icon">
+
+⚔️
+
+</div>
+
+<h2>
+
+PvP Battles
+
+</h2>
+
+<p>
+
+Fight players in exciting battles with balanced gameplay.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="icon">
+
+🏡
+
+</div>
+
+<h2>
+
+Survival
+
+</h2>
+
+<p>
+
+Build amazing bases and survive with your friends.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="icon">
+
+💰
+
+</div>
+
+<h2>
+
+Economy
+
+</h2>
+
+<p>
+
+Trade, sell and become the richest player.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="icon">
+
+🎁
+
+</div>
+
+<h2>
+
+Events
+
+</h2>
+
+<p>
+
+Weekly events with exciting rewards.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- SERVER STATUS -->
+
+<section class="server-status" id="status">
+
+<div class="section-header">
+
+<span class="small-title">
+LIVE STATUS
+</span>
+
+<h1 class="section-title">
+Server Information
+</h1>
+
+<p class="section-desc">
+Everything you need before joining CentricxMC.
+</p>
+
+</div>
+
+<div class="status-grid">
+
+<div class="status-card glow">
+
+<div class="status-icon">
+🟢
+</div>
+
+<h3>Status</h3>
+
+<h2 id="serverOnline">
+Checking...
+</h2>
+
+<p>
+Live server availability
+</p>
+
+</div>
+
+<div class="status-card">
+
+<div class="status-icon">
+👥
+</div>
+
+<h3>Players</h3>
+
+<h2 id="serverPlayers">
+0 / 0
+</h2>
+
+<p>
+Players currently online
+</p>
+
+</div>
+
+<div class="status-card">
+
+<div class="status-icon">
+📦
+</div>
+
+<h3>Version</h3>
+
+<h2 id="serverVersion">
+Loading...
+</h2>
+
+<p>
+Supported Minecraft version
+</p>
+
+</div>
+
+<div class="status-card">
+
+<div class="status-icon">
+⚡
+</div>
+
+<h3>Latency</h3>
+
+<h2 id="serverLatency">
+Loading...
+</h2>
+
+<p>
+Optimized network
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SERVER CONNECT -->
+
+<section class="connect">
+
+<div class="connect-box">
+
+<div class="connect-left">
+
+<h1>
+
+Ready to Join?
+
+</h1>
+
+<p>
+
+Copy the server IP below and start your adventure.
+
+</p>
+
+<div class="ip-box">
+
+<div>
+
+<span>
+
+Java Edition
+
+</span>
+
+<h3>
+
+void.centricxmc.in
+
+</h3>
+
+</div>
+
+<button id="copyJava">
+
+Copy
+
+</button>
+
+</div>
+
+<div class="ip-box">
+
+<div>
+
+<span>
+
+Bedrock Edition
+
+</span>
+
+<h3>
+
+void.centricxmc.in : 25591
+
+</h3>
+
+</div>
+
+<button id="copyBedrock">
+
+Copy
+
+</button>
+
+</div>
+
+</div>
+
+<div class="connect-right">
+
+<div class="preview-card">
+
+<h2>
+
+Why Play Here?
+
+</h2>
+
+<ul>
+
+<li>✔ Friendly Community</li>
+
+<li>✔ No Pay To Win</li>
+
+<li>✔ Weekly Events</li>
+
+<li>✔ Economy</li>
+
+<li>✔ Custom Features</li>
+
+<li>✔ Active Staff Team</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery">
+
+<div class="section-header">
+
+<span class="small-title">
+
+SHOWCASE
+
+</span>
+
+<h1 class="section-title">
+
+Explore The World
+
+</h1>
+
+</div>
+
+<div class="gallery-grid">
+
+<div class="gallery-card">
+
+Coming Soon
+
+</div>
+
+<div class="gallery-card">
+
+Coming Soon
+
+</div>
+
+<div class="gallery-card">
+
+Coming Soon
+
+</div>
+
+<div class="gallery-card">
+
+Coming Soon
+
+</div>
+
+</div>
+
+</section>
+
+<!-- DISCORD -->
+
+<section class="discord" id="discord">
+
+<div class="discord-container">
+
+<div class="discord-left">
+
+<h1>
+
+Join Our Discord
+
+</h1>
+
+<p>
+
+Stay updated with announcements, events, giveaways and chat with the community.
+
+</p>
+
+<a href="https://discord.gg/7eXpErh8t" target="_blank" class="discord-button">
+
+Join Discord
+
+</a>
+
+</div>
+
+<div class="discord-right">
+
+<div class="discord-card">
+
+💬 Community
+
+<h2>
+
+Growing Every Day
+
+</h2>
+
+<p>
+
+Meet players, create teams and participate in exclusive Discord events.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- STAFF -->
+
+<section class="staff">
+
+<div class="section-header">
+
+<span class="small-title">
+
+OUR TEAM
+
+</span>
+
+<h1 class="section-title">
+
+Meet The Staff
+
+</h1>
+
+<p class="section-desc">
+
+A dedicated team keeping CentricxMC fair, fun and enjoyable.
+
+</p>
+
+</div>
+
+<div class="staff-grid">
+
+<div class="staff-card">
+
+<div class="staff-avatar owner"></div>
+
+<h2>Owner</h2>
+
+<p>rayzzz</p>
+
+<span>Founder & Developer</span>
+
+</div>
+
+<div class="staff-card">
+
+<div class="staff-avatar admin"></div>
+
+<h2>Admin</h2>
+
+<p>slimey</p>
+
+<span>Server Management</span>
+
+</div>
+
+<div class="staff-card">
+
+<div class="staff-avatar mod"></div>
+
+<h2>Moderator</h2>
+
+<p>Monu</p>
+
+<span>Community Support</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- STATISTICS -->
+
+<section class="statistics">
+
+<div class="section-header">
+
+<span class="small-title">
+
+SERVER STATS
+
+</span>
+
+<h1 class="section-title">
+
+CentricxMC In Numbers
+
+</h1>
+
+</div>
+
+<div class="stats-grid">
+
+<div class="stats-box">
+
+<h2 class="counter" data-target="500">0</h2>
+
+<p>Discord Members Goal</p>
+
+</div>
+
+<div class="stats-box">
+
+<h2 class="counter" data-target="100">0</h2>
+
+<p>Daily Players Goal</p>
+
+</div>
+
+<div class="stats-box">
+
+<h2 class="counter" data-target="99">0</h2>
+
+<p>Server Uptime %</p>
+
+</div>
+
+<div class="stats-box">
+
+<h2 class="counter" data-target="24">0</h2>
+
+<p>Hours Online</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section id="faq" class="faq">
+
+<div class="section-header">
+
+<span class="small-title">
+
+FAQ
+
+</span>
+
+<h1 class="section-title">
+
+Frequently Asked Questions
+
+</h1>
+
+</div>
+
+<div class="faq-container">
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+How do I join the server?
+
+</button>
+
+<div class="faq-answer">
+
+Use Java or Bedrock Edition and connect using
+
+<b>void.centricxmc.in</b>
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Is the server Pay To Win?
+
+</button>
+
+<div class="faq-answer">
+
+No! Our goal is to provide a balanced and fair experience.
+
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+
+Which versions are supported?
+
+</button>
+
+<div class="faq-answer">
+
+Latest versions with backwards compatibility.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-logo">
+
+<img src="logo.png" alt="CentricxMC">
+
+</div>
+
+<p>
+
+Premium Minecraft Survival Network
+
+</p>
+
+<div class="footer-links">
+
+<a href="#home">Home</a>
+
+<a href="#status">Status</a>
+
+<a href="#features">Features</a>
+
+<a href="#discord">Discord</a>
+
+<a href="#faq">FAQ</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 CentricxMC. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<!-- SCROLL TO TOP -->
+
+<button id="scrollTop">
+
+↑
+
+</button>
+
+<!-- TOAST -->
+
+<div id="toast">
+
+Copied to clipboard!
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
